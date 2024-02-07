@@ -1,4 +1,4 @@
-![image](https://github.com/PrasadP27/Portfolio-Template/assets/157368807/1043e60c-befc-48e6-ac42-db84f1a8c7ea)
+<img src="https://github.com/PrasadP27/Portfolio-Template/assets/157368807/1043e60c-befc-48e6-ac42-db84f1a8c7ea" width="40%" />
 
 # Basic Portfolio Template
 
