@@ -1,62 +1,64 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.6s;
 }
 
-:root{
+:root {
     --color: rgb(101, 184, 217);
 }
 
-/* Navigation Bar */
-
 #home {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0 0 20px 20px;
     background-color: var(--color);
-    padding-bottom: 1cm;
-    margin-left: -1cm;
-    margin-right: -1cm;
-    margin-top: -1cm;
-    padding-top: 2cm;
-    padding-bottom: 2cm;
-    height: 5mm;
-}
-
-.topmenu {
-    color: lightgray;
-    margin: 10px;
-    padding: 20px;
-    font-size: 20px;
-    text-decoration: none;
-}
-
-.topmenu:hover {
-    color: white;
-    font-weight: bolder;
-    text-decoration: underline;
-}
-
-.topdiv {
-    float: right;
-    padding-right: 1cm;
+    padding: 0.8rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .profile_name {
-    float: left;
-    padding-left: 2cm;
     color: white;
-    font-size: 23px;
+    font-weight: 600;
+    font-size: 2.1rem;
+    text-shadow: 2px 2px 10px #000;
+    letter-spacing: 1px;
 }
 
 .profile_name .contact_info {
-    font-size: 15px;
+    letter-spacing: normal;
+    text-align: center;
+    font-size: 1rem;
     font-style: italic;
+    text-shadow: none;
+    padding: 0.5rem 0.7rem 0;
     display: flex;
     align-items: center;
     flex-direction: row;
 }
 
 .contact_info img {
-    margin-right: 10px;
-    float: left;
+    margin-right: 0.8rem;
 }
+
+.topmenu {
+    color: lightgray;
+    padding: 20px;
+    font-size: 1.4rem;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.topmenu:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 
 /* Titles */
 
