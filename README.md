@@ -11,4 +11,4 @@ This is the basic Portfolio template with add review feature where the user can 
 
 #### Image of the website 
 
-<img src="https://github.com/PrasadP27/Portfolio-Template/assets/157368807/1043e60c-befc-48e6-ac42-db84f1a8c7ea" width="50%" />
+<img src="https://github.com/PrasadP27/Portfolio-Template/assets/157368807/41946f25-347e-462e-af08-0533c4084e5f" width="50%" />
